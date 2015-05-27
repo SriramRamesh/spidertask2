@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.spidersubmsn2.MainActivity2Activity">
+    tools:context="com.example.android.spidersubmsn2.MainActivity2Activity"
+    android:background="#ff0b0b0b">
 
     <TextView android:text="@string/hello_world" android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,6 +17,7 @@
         android:text="@string/Retry"
         android:id="@+id/button2"
         android:layout_below="@+id/textView"
+        android:onClick="GotoMainActivity"
         android:layout_alignParentStart="true"
         android:layout_marginTop="66dp" />
 
@@ -25,6 +27,7 @@
         android:text="@string/Exit"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
+        android:onClick="ExitApp"
         android:layout_alignParentStart="true"
         android:layout_marginTop="44dp" />
 
